@@ -21,16 +21,20 @@
     "JavaScript"
   ],
   "author": "Miroslav Jancarik <miroslav.jancarik@firma.seznam.cz>",
-  "contributors": [{
-    "name": "Martin Urban",
-    "email": "martin.urban@firma.seznam.cz"
-  }, {
-    "name": "Martin Jurča",
-    "email": "martin.jurca@firma.seznam.cz"
-  }, {
-    "name": "Ondřej Baše",
-    "email": "ondrej.base@firma.seznam.cz"
-  }],
+  "contributors": [
+    {
+      "name": "Martin Urban",
+      "email": "martin.urban@firma.seznam.cz"
+    },
+    {
+      "name": "Martin Jurča",
+      "email": "martin.jurca@firma.seznam.cz"
+    },
+    {
+      "name": "Ondřej Baše",
+      "email": "ondrej.base@firma.seznam.cz"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/seznam/IMA.js-skeleton.git"
@@ -65,10 +69,12 @@
     "helmet": "3.15.0",
     "ima": "0.16.0",
     "ima-server": "0.16.0",
+    "ima-ui-atoms": "^1.2.9",
     "method-override": "3.0.0",
     "multer": "1.4.1",
     "prop-types": "15.6.2",
     "react": "16.7.0",
+    "react-addons-perf": "^15.4.2",
     "react-dom": "16.7.0",
     "serve-favicon": "2.5.0"
   }
